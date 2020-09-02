@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="btd" constructor="screenshot" version="0.0.1" display-name-key="screenshot" description-key="screenshot description" control-type="standard">
+  <control namespace="btd" constructor="screenshot" version="1.0.0" display-name-key="screenshot" description-key="screenshot description" control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="ButtonText" display-name-key="Property_ButtonText" description-key="Property_ButtonText" of-type="SingleLine.Text" usage="bound" required="true" default-value = "Export to Excel" />
     <property name="ButtonHeight" display-name-key="Property_ButtonHeight" description-key="Property_ButtonHeight" of-type="SingleLine.Text" usage="bound" required="true" default-value = "60"/>

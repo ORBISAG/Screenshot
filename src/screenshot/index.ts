@@ -125,6 +125,6 @@ export class screenshot implements ComponentFramework.StandardControl<IInputs, I
 	 */
 	public destroy(): void
 	{
-		// Add code to cleanup control if necessary
+		this.button.removeEventListener("click", this.onButtonClick.bind(this));
 	}
 }
